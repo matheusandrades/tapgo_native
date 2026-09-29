@@ -1,0 +1,26 @@
+name: tapgo_native
+description: >-
+  Ponte BLE + Serviço de Acessibilidade do Android para o TapGo. Mantém a
+  conexão com um dispositivo BLE (ex.: ESP32 com botões físicos) e executa
+  toques na tela em posições previamente mapeadas quando um botão é pressionado.
+version: 1.0.0
+homepage: https://github.com/matheusandrades/tapgo_native
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.tapgo.tapgo_native
+        pluginClass: TapGoNativePlugin

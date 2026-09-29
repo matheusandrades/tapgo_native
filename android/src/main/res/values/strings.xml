@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tapgo_accessibility_description">O TapGo executa toques na tela nas posições que você mapeou quando um botão do seu dispositivo Bluetooth é pressionado. Nenhum conteúdo da tela é lido ou coletado.</string>
+</resources>
